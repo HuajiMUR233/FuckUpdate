@@ -1,33 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "fup",
   "version": "${version}",
-  "name": "",
-  "description": "",
+  "name": "Fuck Update",
+  "description": "Fuck updates",
   "authors": [
     "Huaji_MUR233"
   ],
   "contact": {
     "homepage": "https://github.com/HuajiMURsMC",
-    "sources": "https://github.com/HuajiMURsMC/"
+    "sources": "https://github.com/HuajiMURsMC/FuckUpdate"
   },
 
   "license": "WTFPL-2.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/fup/icon.png",
 
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "me.jvav."
+    "preLaunch": [
+      "me.jvav.fup.FupPreLaunch"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
 
   "depends": {
-    "fabricloader": ">=0.12.12",
-    "minecraft": "1.18.x",
-    "java": ">=17"
+    "fabricloader": ">=0.12.12"
   }
 }

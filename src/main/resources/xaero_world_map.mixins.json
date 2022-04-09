@@ -1,13 +1,11 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "me.jvav..mixins",
+  "package": "me.jvav.fup.mixin.xaero_world_map",
   "compatibilityLevel": "JAVA_17",
-  "mixins": [
-  ],
   "client": [
-  ],
-  "server": [
+    "MixinInternet",
+    "MixinPatreon"
   ],
   "injectors": {
     "defaultRequire": 1
