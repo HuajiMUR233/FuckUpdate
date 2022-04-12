@@ -10,10 +10,13 @@ public class FupPreLaunch implements PreLaunchEntrypoint {
     public void onPreLaunch() {
         FabricLoader loader = FabricLoader.getInstance();
         if (loader.getModContainer(Constant.XAERO_MINIMAP).isPresent()) {
-            Mixins.addConfiguration("xaero_minimap.mixins.json");
+            Mixins.addConfiguration("xaero_minimap.fup.mixins.json");
         }
         if (loader.getModContainer(Constant.XAERO_WORLD_MAP).isPresent()) {
-            Mixins.addConfiguration("xaero_world_map.mixins.json");
+            Mixins.addConfiguration("xaero_world_map.fup.mixins.json");
+        }
+        if (loader.getModContainer(Constant.LITEMATICA_PRINTER).isPresent()) {
+            Mixins.addConfiguration("litematica_printer.fup.mixins.json");
         }
     }
 }

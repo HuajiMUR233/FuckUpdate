@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.jvav.fup.mixin.litematica_printer",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "MixinUpdateChecker"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

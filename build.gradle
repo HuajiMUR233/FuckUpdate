@@ -38,7 +38,7 @@ dependencies {
 }
 
 quiltflower {
-	quiltflowerVersion = '1.7.0'
+	quiltflowerVersion = '1.8.0'
 }
 
 processResources {
